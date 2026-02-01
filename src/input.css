@@ -1,0 +1,31 @@
+@import "tailwindcss";
+.my-container {
+    @apply max-w-[1167px] mx-auto
+}
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+.banner-hadding {
+    @apply text-[56px] leading-[150%] font-semibold  pb-[24px] font-poppins
+}
+.banner-para {
+    @apply text-[16px] leading-[30px] text-[rgba(32,50,57,0.55)] font-poppins w-[544px]
+}
+.banner-input {
+  @apply 
+    py-[23px] 
+    ps-[56px] 
+    text-[rgba(32,50,57,0.55)] 
+    text-[16px] 
+    rounded-[15px]
+}
+.Properti {
+  @apply 
+    w-[533px]
+    text-[36px]
+    text-[#203239]
+    leading-[150%]
+    font-semibold
+    pb-16;
+}
+
