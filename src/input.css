@@ -5,6 +5,7 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
 }
+
 .banner-hadding {
     @apply text-[56px] leading-[150%] font-semibold  pb-[24px] font-poppins
 }
