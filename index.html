@@ -14,36 +14,31 @@
   </head>
   <body>
     <nav class="bg-[#EEEDDE]">
-      <div class="my-container flex py-[50px] justify-between">
-        <div class="">
-          <img src="src/images/logo.png" class="w-full" alt="" />
-        </div>
-        <div>
-          <ul class="flex gap-[100px]">
-            <li
-              class="font-poppins text-[16px] hover:text-[#203239] hover:font-semibold"
-            >
-              Home
-            </li>
-            <li
-              class="font-poppins text-[16px] hover:text-[#203239] hover:font-semibold"
-            >
-              About
-            </li>
-            <li
-              class="font-poppins text-[16px] hover:text-[#203239] hover:font-semibold"
-            >
-              Properties
-            </li>
-            <li
-              class="font-poppins text-[16px] hover:text-[#203239] hover:font-semibold"
-            >
-              Contact
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <div class="my-container flex py-[50px] justify-between items-center">
+    <div class="">
+      <img src="src/images/logo.png" class="w-full" alt="Logo" />
+    </div>
+    <div>
+      <ul class="flex gap-[100px]">
+        <li class="relative font-poppins text-[16px] text-[#203239] font-semibold cursor-pointer after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-2 after:h-[3px] after:w-5 after:bg-[#FF7D44] after:rounded-full">
+          Home
+        </li>
+
+        <li class="relative group font-poppins text-[16px] text-[#203239] hover:font-semibold cursor-pointer transition-all duration-300 after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-2 after:h-[3px] after:w-0 hover:after:w-5 after:bg-[#FF7D44] after:rounded-full after:transition-all after:duration-300">
+          About
+        </li>
+
+        <li class="relative group font-poppins text-[16px] text-[#203239] hover:font-semibold cursor-pointer transition-all duration-300 after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-2 after:h-[3px] after:w-0 hover:after:w-5 after:bg-[#FF7D44] after:rounded-full after:transition-all after:duration-300">
+          Properties
+        </li>
+
+        <li class="relative group font-poppins text-[16px] text-[#203239] hover:font-semibold cursor-pointer transition-all duration-300 after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-2 after:h-[3px] after:w-0 hover:after:w-5 after:bg-[#FF7D44] after:rounded-full after:transition-all after:duration-300">
+          Contact
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <!-- Banner section -->
     <section class="bg-[#EEEDDE]">
       <div
